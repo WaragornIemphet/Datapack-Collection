@@ -1,0 +1,25 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "pattern": [
+        "XYX",
+        "AZA",
+        "ABA"
+        
+    ],
+    "key": {
+        "X": "minecraft:iron_ingot",
+        "Y": "minecraft:comparator",
+        "Z": "minecraft:tnt_minecart",
+        "A": "minecraft:iron_block",
+        "B": "minecraft:target"
+    },
+    "result": {
+        "id": "minecraft:knowledge_book",
+        "count": 1,
+        "components": {
+            "minecraft:custom_name": "Beano Proxy",
+            "minecraft:custom_data": "{beano_id:1b}"
+        }
+    }
+}

@@ -1,0 +1,4 @@
+summon wither_skeleton ^ ^1 ^ {CustomName:[{"text":"Joorno's Shadow","color":"dark_purple"}],Health:20,PersistenceRequired:1b,Silent:1b,Tags:[joorshadow],attributes:[{id:max_health,base:20f},{id:attack_damage,base:0f}],equipment:{mainhand:{id:diamond_axe,count:1},offhand:{id:shield,count:1},head:{id:player_head,components:{profile:{name:joorno},custom_name:[{text:"Joorno's Shadow",italic:false,color:dark_purple}],lore:[[{text:"Complete Invisibility",italic:false,color:light_purple}],"",[{text:"Press [ F ] to use",italic:false,color:yellow}]],custom_data:{joorno:1}},count:1},chest:{id:diamond_chestplate,count:1},legs:{id:diamond_leggings,count:1},feet:{id:diamond_boots,count:1}},drop_chances:{mainhand:0f,offhand:0f,head:0.2f,chest:0f,legs:0f,feet:0f}}
+playsound entity.wither.spawn voice @a[distance=..100] ^ ^ ^ 180 0.9 1
+execute at @s run particle angry_villager ^ ^1 ^ 0.5 0.75 0.5 0 100 normal
+scoreboard players set world JoornoSkill 0

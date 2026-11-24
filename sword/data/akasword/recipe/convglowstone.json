@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    "minecraft:gunpowder",
+    "minecraft:experience_bottle"
+  ],
+  "result": {
+    "id": "minecraft:glowstone_dust"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "equipment": {
+      "offhand": {
+        "items": "minecraft:amethyst_shard",
+        "count": {
+          "min": 5
+        },
+        "components": {
+          "minecraft:item_model": "syn:mana"
+        }
+      }
+    }
+  }
+}

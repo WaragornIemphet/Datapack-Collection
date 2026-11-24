@@ -1,0 +1,5 @@
+kill @e[tag=vanadium_sword,distance=..3]
+give @p iron_sword[custom_name=[{"text":"Vanadium Sword","italic":false}],lore=[[{"text":"Medium-hard, ductile, and malleable sword","italic":false,"color":"gray"}],[{"text":"excessive exposure can be highly toxic and cause","italic":false,"color":"gray"}],["",{"text":"damage to the respiratory system, ","italic":false,"color":"gray"},{"text":"kidneys, and ","italic":false,"color":"gray"}],[{"text":"nervous system.","italic":false,"color":"gray"}],"",[{"text":"When in Main Hand:","italic":false,"color":"gray"}],[{"text":" 7 Attack Damage","italic":false,"color":"dark_green"}],[{"text":" 1.6 Attack Speed","italic":false,"color":"dark_green"}]],attribute_modifiers=[{type:attack_speed,amount:-2.4,slot:mainhand,operation:add_value,id:"1781966818717"},{type:attack_damage,amount:7,slot:mainhand,operation:add_value,id:"1781966818718"}],max_damage=500,item_model="syn:vanadiumsword",custom_data={vanadiumsword:1},tooltip_display={hidden_components:[attribute_modifiers]}]
+
+particle minecraft:explosion ~ ~ ~ 0.5 0.5 0.5 0.1 5
+playsound minecraft:block.anvil.use block @a[distance=..50] ~ ~ ~

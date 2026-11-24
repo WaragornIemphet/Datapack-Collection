@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#u"
+  ],
+  "key": {
+    "#": "minecraft:sand",
+    "u": "minecraft:experience_bottle"
+  },
+  "result": {
+    "id": "minecraft:gravel"
+  }
+}

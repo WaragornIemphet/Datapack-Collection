@@ -1,0 +1,2 @@
+execute as @a at @s if entity @s[nbt={Inventory:[{id:"minecraft:ancient_debris"}]}] run function akaclone:akaclonerestriction
+execute as @a at @s if entity @s[nbt={Inventory:[{id:"minecraft:netherite_ingot"}]}] run function akaclone:akaclonerestriction

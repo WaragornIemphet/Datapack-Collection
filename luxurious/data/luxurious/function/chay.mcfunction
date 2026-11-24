@@ -1,0 +1,20 @@
+scoreboard players set world Luxurious2Lives 1
+scoreboard players set world ChaySkill 0
+scoreboard players set world ChayP2Skill 0
+
+tellraw @a [{"text":"Luxurious","color":"green"},{"text":" has been alerted by ","color":"gray"},{"selector":"@s","color":"gray"},{"text":" !","color":"gray"}]
+
+summon mannequin ~ ~1 ~ {profile:"0_chay_0",hide_description:1b,CustomName:[{"text":"0_Chay_0","color":"aqua"}],CustomNameVisible:1b,Health:300,Invulnerable:1b,PersistenceRequired:1b,Silent:1b,Tags:[chay],Team:noCollision,attributes:[{id:max_health,base:300f}],equipment:{mainhand:{id:netherite_sword,count:1},offhand:{id:totem_of_undying,count:1},head:{id:netherite_helmet,components:{trim:{pattern:flow,material:redstone},enchantment_glint_override:true},count:1},chest:{id:netherite_chestplate,components:{trim:{pattern:flow,material:redstone},enchantment_glint_override:true},count:1},legs:{id:netherite_leggings,components:{trim:{pattern:flow,material:redstone},enchantment_glint_override:true},count:1},feet:{id:netherite_boots,components:{trim:{pattern:flow,material:redstone},enchantment_glint_override:true},count:1}},drop_chances:{mainhand:0f,offhand:0f,head:0f,chest:0f,legs:0f,feet:0f}}
+summon vindicator ~ ~1 ~3 {CustomName:[{"text":"0_Chay_0","color":"aqua"}],CustomNameVisible:1b,Health:250,PersistenceRequired:1b,Silent:1b,Tags:[chay2],attributes:[{id:armor,base:8f},{id:attack_damage,base:5f},{id:scale,base:1.25f},{id:follow_range,base:40f},{id:max_health,base:250f}]}
+
+summon mannequin ~ ~1 ~ {profile:smatr_,hide_description:1b,CustomName:[{"text":"smatr_","color":"blue"}],CustomNameVisible:1b,Health:250,Invulnerable:1b,PersistenceRequired:1b,Silent:1b,Tags:[smq],Team:noCollision,attributes:[{id:max_health,base:250f}],equipment:{mainhand:{id:mace,count:1},offhand:{id:netherite_spear,count:1},head:{id:diamond_helmet,components:{trim:{pattern:bolt,material:redstone},enchantment_glint_override:true},count:1},chest:{id:diamond_chestplate,components:{trim:{pattern:bolt,material:redstone},enchantment_glint_override:true},count:1},legs:{id:diamond_leggings,components:{trim:{pattern:bolt,material:redstone},enchantment_glint_override:true},count:1},feet:{id:diamond_boots,components:{trim:{pattern:bolt,material:redstone},enchantment_glint_override:true},count:1}},drop_chances:{mainhand:0f,offhand:0f,head:0f,chest:0f,legs:0f,feet:0f}}
+summon vindicator ~2 ~1 ~1 {CustomName:[{"text":"smatr_","color":"blue"}],CustomNameVisible:1b,Health:250,PersistenceRequired:1b,Silent:1b,Tags:[smq2],attributes:[{id:armor,base:8f},{id:attack_damage,base:5f},{id:scale,base:1.25f},{id:follow_range,base:40f},{id:max_health,base:250f}]}
+
+summon mannequin ~ ~1 ~ {profile:Mawcel,hide_description:1b,CustomName:[{"text":"Mawcel","color":"yellow"}],CustomNameVisible:1b,Health:250,Invulnerable:1b,PersistenceRequired:1b,Silent:1b,Tags:[maw],Team:noCollision,attributes:[{id:max_health,base:250f}],equipment:{mainhand:{id:diamond_sword,count:1},offhand:{id:shield,count:1},head:{id:diamond_helmet,components:{trim:{pattern:silence,material:redstone},enchantment_glint_override:true},count:1},chest:{id:diamond_chestplate,components:{trim:{pattern:silence,material:redstone},enchantment_glint_override:true},count:1},legs:{id:diamond_leggings,components:{trim:{pattern:silence,material:redstone},enchantment_glint_override:true},count:1},feet:{id:diamond_boots,components:{trim:{pattern:silence,material:redstone},enchantment_glint_override:true},count:1}},drop_chances:{mainhand:0f,offhand:0f,head:0f,chest:0f,legs:0f,feet:0f}}
+summon vindicator ~ ~1 ~ {CustomName:[{"text":"Mawcel","color":"yellow"}],CustomNameVisible:1b,Health:250,PersistenceRequired:1b,Silent:1b,Tags:[maw2],attributes:[{id:armor,base:8f},{id:attack_damage,base:5f},{id:scale,base:1.25f},{id:follow_range,base:40f},{id:max_health,base:250f}]}
+
+function luxurious:chayloop
+
+bossbar set chay players @a[distance=..128]
+bossbar set smqtr players @a[distance=..128]
+bossbar set mawcel players @a[distance=..128]

@@ -1,0 +1,1 @@
+execute as @e[tag=akaclonedead] at @s run effect give @s levitation infinite 2 true

@@ -1,0 +1,33 @@
+{
+  "criteria": {
+    "hit_entity": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "damage": {
+          "dealt": {
+            "min": 10.0
+          }
+        },
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "equipment": {
+                "mainhand": {
+                  "items": "minecraft:diamond_axe",
+                  "predicates": {
+                    "minecraft:custom_data": "{realdiamondaxe:1b}"
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "akasword:dia_axe_hit"
+  }
+}

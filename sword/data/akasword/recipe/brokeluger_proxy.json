@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "pattern": [
+        "AAL",
+        " XA"
+        
+    ],
+    "key": {
+        "X": "minecraft:redstone",
+        "L": "minecraft:tripwire_hook",
+        "A": "minecraft:iron_ingot"
+    },
+    "result": {
+        "id": "minecraft:knowledge_book",
+        "count": 1,
+        "components": {
+            "minecraft:custom_name": "Broken Luger Proxy",
+            "minecraft:custom_data": "{brokeluger_id:1b}"
+        }
+    }
+}

@@ -1,0 +1,4 @@
+execute as @e[tag=clump_stick,distance=..2] if items entity @s contents minecraft:poisonous_potato[custom_data~{clump:1}] run kill @s
+execute as @e[tag=clump_stick,distance=..2] if items entity @s contents minecraft:stick run kill @s
+
+give @p iron_spear[custom_name=[{"text":"Pugio PCRi","italic":false,"color":"blue"}],lore=[[{"text":"A dagger made out of fungus","italic":false,"color":"dark_blue"}]],enchantment_glint_override=false,enchantments={lunge:1},attribute_modifiers=[{type:attack_damage,amount:4,slot:mainhand,operation:add_value,id:"1785224194782"},{type:attack_speed,amount:-1,slot:mainhand,operation:add_value,id:"1785224194783"},{type:water_movement_efficiency,amount:1,slot:mainhand,operation:add_value,id:"1785224194784"}],max_damage=300,repair_cost=500,item_model="syn:fword",custom_data={ffsword:1},tooltip_display={hidden_components:[attribute_modifiers,enchantments]}]

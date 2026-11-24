@@ -1,0 +1,1 @@
+tellraw @a [{"text":"As the music faded and the ashes drifted into the wind, unseen eyes remained fixed upon the ruined battlefield.","color":"dark_red"}]

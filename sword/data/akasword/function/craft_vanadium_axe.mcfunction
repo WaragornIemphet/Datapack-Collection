@@ -1,0 +1,4 @@
+kill @e[tag=vanadium_axe,type=item,distance=..6]
+particle minecraft:explosion ~ ~ ~ 0.5 0.5 0.5 0.1 5
+playsound minecraft:block.anvil.use block @a[distance=..50] ~ ~ ~
+give @p iron_axe[custom_name=[{"text":"Vanadium Axe","italic":false}],lore=[[{"text":"Medium-hard, ductile, corrosion resistant and malleable axe","italic":false,"color":"gray"}],"","",[{"text":"When in Main Hand:","italic":false,"color":"gray"}],[{"text":" 10 Attack Damage","italic":false,"color":"dark_green"}],[{"text":" 1 Attack Speed","italic":false,"color":"dark_green"}]],attribute_modifiers=[{type:attack_damage,amount:10,slot:mainhand,operation:add_value,id:"1782039890149"},{type:attack_speed,amount:-3,slot:mainhand,operation:add_value,id:"1782039890150"}],max_damage=500,item_model="syn:vanadiumaxe",custom_data={vanadiumaxe:1},tooltip_display={hidden_components:[attribute_modifiers]}] 1

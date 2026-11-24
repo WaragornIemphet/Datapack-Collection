@@ -1,0 +1,1 @@
+summon mannequin ~ ~1 ~ {profile:"Tawee_4G",hide_description:1b,CustomName:{"text":"DPS: 0","color":"red","bold":true},CustomNameVisible:1b,Health:1000f,attributes:[{id:"minecraft:max_health",base:1000f}],Tags:["dps_dummy"]}

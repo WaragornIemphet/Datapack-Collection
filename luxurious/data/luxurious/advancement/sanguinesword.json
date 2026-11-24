@@ -1,0 +1,28 @@
+{
+  "criteria": {
+    "sanguine_kill": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "equipment": {
+                "mainhand": {
+                  "items": "minecraft:copper_sword",
+                  "predicates": {
+                    "minecraft:custom_data": "{sanguinesword:1}"
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "luxurious:sanguineswordevent"
+  }
+}

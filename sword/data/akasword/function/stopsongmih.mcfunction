@@ -1,0 +1,1 @@
+stopsound @a voice music_disc.bank2

@@ -1,0 +1,1 @@
+execute store result score world GuncloneRandom run random value 1..7

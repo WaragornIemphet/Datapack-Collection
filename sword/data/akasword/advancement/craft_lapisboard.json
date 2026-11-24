@@ -1,0 +1,13 @@
+{
+    "criteria": {
+        "crafted_cutter": {
+            "trigger": "minecraft:recipe_crafted",
+            "conditions": {
+                "recipe_id": "akasword:lapisboard_proxy"
+            }
+        }
+    },
+    "rewards": {
+        "function": "akasword:give_lapisboard"
+    }
+}

@@ -1,0 +1,5 @@
+execute as @e[tag=clump_helmet,distance=..2] if items entity @s contents minecraft:poisonous_potato[custom_data~{clump:1}] run kill @s
+execute as @e[tag=clump_helmet,distance=..2] if items entity @s contents minecraft:iron_helmet run kill @s
+execute as @e[tag=clump_helmet,distance=..2] if items entity @s contents minecraft:fermented_spider_eye[custom_data~{froot:1}] run kill @s
+
+give @p leather_helmet[trim={pattern:silence,material:lapis},dyed_color=3949738,custom_name=[{"text":"Galea PCRi","italic":false,"color":"blue"}],lore=[[{"text":"Fungus Helmet","italic":false,"color":"gray"}]],attribute_modifiers=[{type:armor,amount:2,slot:head,operation:add_value,id:"1785228277001"},{type:armor_toughness,amount:1,slot:head,operation:add_value,id:"1785228277002"},{type:max_health,amount:1,slot:head,operation:add_value,id:"1785228277003"}],max_damage=240,custom_data={fungushelmet:1}]

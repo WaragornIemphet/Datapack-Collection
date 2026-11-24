@@ -1,0 +1,5 @@
+kill @e[tag=vanadium_shield,distance=..3]
+give @p shield[banner_patterns=[{pattern:border,color:light_gray},{pattern:cross,color:light_gray}],base_color=white,custom_name=[{"text":"Vanadium Shield","italic":false}],lore=[[{"text":"exceptional structural strength, shock resistance,","italic":false,"color":"gray"}],[{"text":"and corrosion resistance.","italic":false,"color":"gray"}]],attribute_modifiers=[{type:armor,amount:4,operation:add_value,id:"1785417124762"},{type:armor_toughness,amount:2,operation:add_value,id:"1785417124763"},{type:knockback_resistance,amount:0.2,operation:add_value,id:"1785417124764"},{type:attack_damage,amount:5,slot:mainhand,operation:add_value,id:"1785417124765"},{type:attack_speed,amount:-1,slot:mainhand,operation:add_value,id:"1785417124766"}],max_damage=600,custom_data={vanadiumshield:1}]
+
+particle minecraft:explosion ~ ~ ~ 0.5 0.5 0.5 0.1 5
+playsound minecraft:block.anvil.use block @a[distance=..50] ~ ~ ~

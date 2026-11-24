@@ -1,0 +1,13 @@
+{
+    "criteria": {
+        "crafted_beano": {
+            "trigger": "minecraft:recipe_crafted",
+            "conditions": {
+                "recipe_id": "country:fungus_proxy"
+            }
+        }
+    },
+    "rewards": {
+        "function": "country:give_fungus"
+    }
+}

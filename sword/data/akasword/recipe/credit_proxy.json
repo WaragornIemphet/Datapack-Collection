@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "pattern": [
+        "AAL",
+        "XXX"
+        
+    ],
+    "key": {
+        "X": "minecraft:gold_ingot",
+        "L": "minecraft:copper_ingot",
+        "A": "minecraft:iron_ingot"
+    },
+    "result": {
+        "id": "minecraft:knowledge_book",
+        "count": 1,
+        "components": {
+            "minecraft:custom_name": "Credit Proxy",
+            "minecraft:custom_data": "{credit_id:1b}"
+        }
+    }
+}

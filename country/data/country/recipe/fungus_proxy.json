@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "pattern": [
+        "XZX",
+        "ZYZ",
+        "XZX"
+        
+    ],
+    "key": {
+        "X": "minecraft:lapis_lazuli",
+        "Y": "minecraft:ender_pearl",
+        "Z": "minecraft:mushroom_stem"
+    },
+    "result": {
+        "id": "minecraft:knowledge_book",
+        "count": 1,
+        "components": {
+            "minecraft:custom_name": "Fungus",
+            "minecraft:custom_data": "{Fungus_id:1b}"
+        }
+    }
+}

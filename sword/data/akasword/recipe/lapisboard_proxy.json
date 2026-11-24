@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "pattern": [
+        "XX",
+        "XX"
+        
+    ],
+    "key": {
+        "X": "minecraft:lapis_lazuli"
+    },
+    "result": {
+        "id": "minecraft:knowledge_book",
+        "count": 1,
+        "components": {
+            "minecraft:custom_name": "Lapis Board Proxy",
+            "minecraft:custom_data": "{lapisboard_id:1b}"
+        }
+    }
+}

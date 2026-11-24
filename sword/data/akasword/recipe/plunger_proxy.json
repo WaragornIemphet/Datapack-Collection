@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "pattern": [
+        " X ",
+        " L ",
+        " A "
+    ],
+    "key": {
+        "X": "minecraft:red_dye",
+        "L": "minecraft:white_wool",
+        "A": "minecraft:stick"
+    },
+    "result": {
+        "id": "minecraft:knowledge_book",
+        "count": 1,
+        "components": {
+            "minecraft:custom_name": "Plunger Proxy",
+            "minecraft:custom_data": "{plunger_id:1b}"
+        }
+    }
+}

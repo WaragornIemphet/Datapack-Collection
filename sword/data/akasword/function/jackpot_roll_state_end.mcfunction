@@ -1,0 +1,4 @@
+tag @s remove luckybastard_jackpot
+clear @s *[custom_data~{jackpot:2}]
+give @s carrot_on_a_stick[custom_name=[{"text":"Jackpot Hour","italic":false,"color":"green"}],lore=[["",{"text":"I JUST HIT THE ","italic":false,"color":"gray"},{"text":"JACKPOT","italic":false,"color":"green"},{"text":" AY AYA YA YAY AAE AE AYE","italic":false,"color":"gray"}],"",["",{"text":"Reserved Ball ","italic":false,"color":"gold"},{"text":"[ RMB ]","italic":false,"color":"yellow"}],["",{"text":"Shutter Doors ","italic":false,"color":"gold"},{"text":"[ F ]","italic":false,"color":"yellow"}],["",{"text":"Counter","italic":false,"color":"gold"},{"text":" [ Sneak ]","italic":false,"color":"yellow"}]],enchantment_glint_override=false,enchantments={knockback:4},unbreakable={},item_model="syn:jackpothour",custom_data={jackpot:1},tooltip_display={hidden_components:[enchantments]}]
+execute at @s run playsound minecraft:music_disc.gunbgm voice @a[distance=..60] ~ ~ ~ 150 1 1

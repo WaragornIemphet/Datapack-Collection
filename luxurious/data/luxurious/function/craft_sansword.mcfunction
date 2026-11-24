@@ -1,0 +1,2 @@
+kill @e[tag=sanrecipe5,distance=..3]
+give @p copper_sword[custom_name=[{"text":"Sanguine Sword","italic":false,"color":"dark_red"}],lore=[[{"text":"The blade weeps a crimson mist when drawn. ","italic":false,"color":"red"}],[{"text":"It carries the hunger of its former master.","italic":false,"color":"red"}]],attribute_modifiers=[{type:attack_damage,amount:7,slot:mainhand,operation:add_value,id:"1790240601062"},{type:attack_speed,amount:-2.3,slot:mainhand,operation:add_value,id:"1790240601063"}],custom_data={sanguinesword:1},item_model="syn:sanguinesword",max_damage=666]

@@ -1,0 +1,24 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "pattern": [
+        "  X",
+        "ZZY",
+        " WW"
+        
+    ],
+    "key": {
+        "X": "minecraft:flint",
+        "Y": "minecraft:tripwire_hook",
+        "Z": "minecraft:iron_ingot",
+        "W": "minecraft:oak_log"
+    },
+    "result": {
+        "id": "minecraft:knowledge_book",
+        "count": 1,
+        "components": {
+            "minecraft:custom_name": "Musket Proxy",
+            "minecraft:custom_data": "{musket_id:1b}"
+        }
+    }
+}
