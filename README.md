@@ -7,7 +7,7 @@ This repository showcases modular game-systems engineering inside Minecraft's ti
 ---
 
 ## Featured Highlight: `sword/` — Light Bane Weapon Framework
-**Scale:** `256` `.mcfunction` files · `11,926` lines of logic · Browse: **[sword/](sword/)**
+**Scale:** `256` `.mcfunction` files · `11,926` lines of logic · Browse: **[sword/](sword/data/akasword/function)**
 
 The centerpiece of this collection is **Light Bane** (`akasword:` namespace), a multi-mode melee weapon system engineered with state machines, crosshair raycasting, custom input interception, and dynamic skill-buffing architecture:
 
