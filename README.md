@@ -1,4 +1,4 @@
-# Minecraft 1.21+ Datapack Collection
+# Minecraft 26.1+ Datapack Collection
 
 A collection of **7 custom Minecraft 26.1+ datapacks** (**555 `.mcfunction` files**, **14,711 lines of game logic**, **649 total files** including JSON configurations) built by **Waragorn Iemphet**.
 
