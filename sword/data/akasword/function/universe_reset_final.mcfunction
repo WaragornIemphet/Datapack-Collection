@@ -1,7 +1,5 @@
-# 1. Teleport Enemies (20 blocks UP and 20 blocks BACK from Owner)
 execute as @a[tag=!speed_owner] at @s run tp @s ^ ^20 ^-20
 
-# 2. Apply Random Debuffs to Victims
 execute as @e[tag=!speed_owner,type=!armor_stand,type=!item,type=!mannequin,type=!item_frame,type=!glow_item_frame,type=!villager,type=!cat,type=!wolf,type=!happy_ghast,type=!horse,type=!skeleton_horse,type=!fox] at @s run function akasword:apply_random_debuff
 
 kill @e[type=silverfish]
@@ -49,7 +47,6 @@ execute as @e[type=wither_skeleton] at @s run effect give @s levitation 600 1 tr
 
 schedule function akasword:stopsongmih 8s
 effect clear @a[tag=speed_owner]
-# 3. Reset System
 scoreboard players set @s mih_accel_seq 0
 scoreboard players set @s mih_accel_stage 0
 scoreboard players set @s mih_ult_cd 20000

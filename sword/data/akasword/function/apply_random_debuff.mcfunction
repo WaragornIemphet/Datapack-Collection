@@ -1,7 +1,5 @@
-# 1. Pick a random number 0-9
 execute as @s at @s store result score @s mih_math run random value 0..15
 
-# 2. Apply effect based on result (using check from last random roll)
 execute if score @s mih_math matches 0 at @s run effect give @s minecraft:blindness 12000 0 true
 execute if score @s mih_math matches 1 at @s run effect give @s minecraft:wither 12000 5 true
 execute if score @s mih_math matches 2 at @s run effect give @s minecraft:levitation 12000 10 true

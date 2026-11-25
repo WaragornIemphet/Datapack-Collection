@@ -1,4 +1,3 @@
-# 1. REFRESH ALL COOLDOWNS
 scoreboard players set @s akasword_jackpot_cd 0
 scoreboard players set @s akasword_door_cd 0
 scoreboard players set @s akasword_cnt_cd 0

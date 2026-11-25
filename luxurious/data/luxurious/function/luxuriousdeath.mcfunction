@@ -38,7 +38,7 @@ execute at @e[tag=powp] as @a[distance=..64] run give @s breeze_rod 8
 execute at @e[tag=powp] as @a[distance=..64,sort=random,limit=1] run give @s ominous_trial_key 1
 
 
-execute at @e[tag=chay] as @a[distance=..64] run give @s emerald[custom_name=[{"text":"Sanguine Emerald","italic":false,"color":"dark_red"}],lore=[[{"text":"It’s not just stained; the crystalline lattice has been ","italic":false,"color":"blue"}],[{"text":"fundamentally replaced by ","italic":false,"color":"blue"},{"text":"coagulated iron and sorrow","italic":false,"color":"dark_red"},{"text":".","italic":false,"color":"blue"}],[{"text":"Holding it is to feel a pulse that doesn't belong to you.","italic":false,"color":"blue"}]],item_model="syn:sanguineemerald",custom_data={sanguineemerald:1}]
+execute at @e[tag=chay] as @a[distance=..64] run give @s emerald[custom_name=[{"text":"Sanguine Emerald","italic":false,"color":"dark_red"}],lore=[[{"text":"Itâ€™s not just stained; the crystalline lattice has been ","italic":false,"color":"blue"}],[{"text":"fundamentally replaced by ","italic":false,"color":"blue"},{"text":"coagulated iron and sorrow","italic":false,"color":"dark_red"},{"text":".","italic":false,"color":"blue"}],[{"text":"Holding it is to feel a pulse that doesn't belong to you.","italic":false,"color":"blue"}]],item_model="syn:sanguineemerald",custom_data={sanguineemerald:1}]
 execute at @e[tag=chay] as @a[distance=..64] run give @s lapis_block 1
 execute at @e[tag=chay] as @a[distance=..64] run give @s emerald_block 1
 execute at @e[tag=chay] as @a[distance=..64] run give @s golden_apple 8

@@ -1,7 +1,5 @@
-# 1. Clear tags so we don't have leftovers from last tick
 tag @e[type=item,tag=healcraft] remove healcraft
 
-# 2. Find a "core" item (Diamond) and tag everything nearby
 execute at @e[type=item,nbt={Item:{id:"minecraft:stick"}}] as @e[type=item,distance=..2] run tag @s add healcraft
 
 

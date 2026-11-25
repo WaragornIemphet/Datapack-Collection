@@ -3,14 +3,11 @@ item replace entity @s weapon.offhand with iron_nautilus_armor[item_model="syn:s
 
 scoreboard players set @s akasword_cnt_active 40
 
-# 2. Set Cooldown (8 Seconds = 160 Ticks)
 scoreboard players set @s akasword_cnt_cd 350
 
-# 3. Visuals (Shield Up)
 execute at @s run playsound minecraft:item.shield.block voice @a[distance=..60] ~ ~ ~ 100 0.5
 execute at @s run playsound minecraft:block.respawn_anchor.charge voice @a[distance=..60] ~ ~ ~ 100 2
 
-# 4. Reset Detection Immediate
 scoreboard players set @s akasword_take_dmg 0
 scoreboard players set @s akasword_res_dmg 0
 scoreboard players set @s akasword_abs_dmg 0

@@ -42,7 +42,7 @@ The centerpiece of this collection is **Light Bane** (`akasword:` namespace), a 
 
 ---
 
-## Installation (Minecraft 1.21+)
+## Installation (Minecraft 26.1+)
 
 1. Download or clone this repository.
 2. Copy any individual datapack folder (e.g., `sword/`, `luxurious/`, `akaclone/`) into your world's `datapacks/` directory (`<world_folder>/datapacks/`).

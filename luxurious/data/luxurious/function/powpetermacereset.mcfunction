@@ -1,4 +1,3 @@
-# 1. Clear tags and timers
 execute at @e[tag=powp2_stunned] as @e[tag=joor2] run tp @s ^1 ^ ^2
 execute at @e[tag=powp2_stunned] as @e[tag=sett2] run tp @s ^-1 ^ ^2
 execute at @e[tag=powp2_stunned] as @e[tag=joorshadow] run tp @s ^ ^ ^3
@@ -11,7 +10,6 @@ scoreboard players set @s Powp2SkillTimer 0
 scoreboard players set @s Powp2TrackTimer 0
 scoreboard players set @s Powp2StunTimer 0
 
-# 2. Clear all skill-related effects
 effect clear @s levitation
 effect clear @s slowness
 effect clear @s weakness

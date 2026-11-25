@@ -13,7 +13,6 @@ bossbar set joorno style notched_6
 bossbar set joorno max 250
 bossbar set joorno color pink
 
-# ---------------------------------------------------------------------------------------- #
 
 bossbar add chay [{"text":"0_chay_0","color":"aqua"}]
 bossbar set chay max 250
@@ -30,7 +29,6 @@ bossbar set mawcel style notched_6
 bossbar set mawcel max 250
 bossbar set mawcel color yellow
 
-# ---------------------------------------------------------------------------------------- #
 
 scoreboard objectives add SanguineBleed dummy
 

@@ -11,10 +11,8 @@ execute at @e[tag=east] run particle dust{color:[0.52,0.0,0.0],scale:2} ~ ~ ~ 0.
 execute at @e[tag=west] run particle dust{color:[1.0,1.0,1.0],scale:2} ~ ~ ~ 0.0 0.0 0.0 0.0001 1
 
 
-##########
 execute as @e[tag=akafire] at @s run scoreboard players add @s AkafireLife 1
 execute as @e[tag=akafire,scores={AkafireLife=80..}] at @s if score @s AkafireLife matches 80.. run kill @s
-##########
 
 execute at @e[tag=akaclone2] as @e[tag=akaclone2,tag=!p2akaclone,tag=!akaclp2,scores={Akaclone=250..300}] run function akaclone:akaclonephase2
 execute at @e[tag=akaclone2] as @e[tag=akaclone2,tag=!akaclonedes,scores={Akaclone=..200}] run function akaclone:akaclonedesperate

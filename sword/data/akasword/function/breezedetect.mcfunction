@@ -1,4 +1,3 @@
-# Revoke advancement to allow re-triggering
 advancement revoke @s only akasword:breezehit
 
 tag @s add breezehit

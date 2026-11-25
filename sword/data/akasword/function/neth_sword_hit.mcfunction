@@ -24,7 +24,7 @@ execute if score @s RNG_Roll matches 6 if score @s SwordCombo matches 9 run effe
 execute if score @s RNG_Roll matches 6 if score @s SwordCombo matches 10.. run effect give @s strength 10 9 true
 
 
-execute if score @s RNG_Roll matches 6 run title @s actionbar [{"text":"⚔ STRENGTH LEVEL: ","color":"yellow","bold":true},{"score":{"name":"@s","objective":"SwordCombo"},"color":"red","bold":true},{"text":" ⚔","color":"yellow","bold":true}]
+execute if score @s RNG_Roll matches 6 run title @s actionbar [{"text":"âš” STRENGTH LEVEL: ","color":"yellow","bold":true},{"score":{"name":"@s","objective":"SwordCombo"},"color":"red","bold":true},{"text":" âš”","color":"yellow","bold":true}]
 
 
 execute if score @s RNG_Roll matches 6 if entity @s[tag=base_netherite_set] run effect give @s instant_health 1 0 true

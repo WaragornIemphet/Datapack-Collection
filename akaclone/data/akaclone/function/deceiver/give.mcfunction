@@ -1,8 +1,6 @@
-# Remove any existing Deceiver items in the inventory
 clear @s *[custom_data~{deceiver:1}]
 
 playsound minecraft:music_disc.raw__unfiltered_calamity4 voice @s ^ ^1 ^ 250 1 1
 
-# Give the new Deceiver item
 give @s carrot_on_a_stick[custom_name=[{"text":"The Deceiver","bold":true,"italic":false,"color":"dark_red"}],lore=[["",{"text":"A ","italic":false,"color":"dark_gray"},{"text":"crimson lantern that lures others with a false light, born ","italic":false,"color":"dark_gray"}],["",{"text":"from the imitation of the","italic":false,"color":"dark_gray"},{"text":" Doppengangers","italic":false,"color":"dark_red"}],"",["",{"text":"[ RMB ]","bold":true,"italic":false,"color":"gray"},{"text":" Aka Fire","italic":false,"color":"gray"}],["",{"text":"[ F ]","bold":true,"italic":false,"color":"gray"},{"text":" Akaflames / Ram","italic":false,"color":"gray"}],["",{"text":"[ Sneak ]","bold":true,"italic":false,"color":"gray"},{"text":" Disruption","italic":false,"color":"gray"}]],enchantment_glint_override=false,enchantments={knockback:2},attribute_modifiers=[{type:attack_damage,amount:15,slot:mainhand,operation:add_value,id:"1783942094445"},{type:attack_speed,amount:-1,slot:mainhand,operation:add_value,id:"1783942094446"},{type:step_height,amount:3,slot:mainhand,operation:add_value,id:"1783942094447"}],unbreakable={},item_model="syn:deceiver",custom_data={deceiver:1},tooltip_display={hidden_components:[enchantments]}]
 

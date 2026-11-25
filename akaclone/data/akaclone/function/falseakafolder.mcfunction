@@ -10,10 +10,8 @@ execute as @e[tag=fwest] at @s run tp @s ^-0.8 ^ ^
 execute as @e[tag=fnorth] at @s run tp @s ^ ^ ^0.8
 execute as @e[tag=fsouth] at @s run tp @s ^ ^ ^-0.8
 
-#####
 execute as @e[tag=fakafire] at @s run scoreboard players add @s FalseAkafireLife 1
 execute as @e[tag=fakafire,scores={FalseAkafireLife=70..}] at @s if score @s FalseAkafireLife matches 70.. run kill @s
-#####
 
 execute at @e[tag=falseaka,tag=!falseakaram,tag=!usingfakaflame,tag=!falseakadeathphase] if entity @a[distance=..64] run scoreboard players add world FalseakaSkill 1
 execute at @e[tag=falseaka2] if score world FalseakaSkill matches 100 run function akaclone:falseakasufsummon

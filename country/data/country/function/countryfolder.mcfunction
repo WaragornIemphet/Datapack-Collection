@@ -2,20 +2,17 @@ execute store result bossbar pcr value run data get entity @e[tag=country2,limit
 execute at @e[tag=country2] run bossbar set pcr players @a[distance=..100]
 
 
-# summon
 
 scoreboard players set @e[tag=countrysummon] alive_check 0
 execute as @e[tag=countrysummon2] at @s run function country:countrysummonupdate
 execute as @e[tag=countrysummon,scores={alive_check=0}] run kill @s
 
-# effects
 execute as @e[tag=country] at @s run tp @s @e[tag=country2,limit=1]
 effect give @e[tag=countrysummon2] invisibility 1 1 true
 effect give @e[tag=countrysummon2] speed 1 1 true
 effect give @e[tag=country2] invisibility 1 1 true
 effect give @e[tag=country2] speed 1 1 true
 
-# skill
 scoreboard players add world CountrySKill 1
 
 execute as @e[tag=country] at @s if score world CountrySKill matches 500 run function country:countrydivide
